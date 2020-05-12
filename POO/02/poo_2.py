@@ -19,7 +19,7 @@ class Voiture:
         print(f"Vous avez {Voiture.voiture_crees} voitures dans votre garage.")
 
     def __str__(self): # méthode str
-        return f"Voiture de marque {self.marque} avec vitesse maximale de {self.vitesse}."
+        return f"Voiture de marque {self.marque} avec vitesse maximale de {self.vitesse} et qui coûte {self.prix}."
 
 lambo = Voiture.lamborghini() # la méthode de classe qui retourne une instance( return cls)
 porsche = Voiture.porsche()

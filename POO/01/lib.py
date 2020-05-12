@@ -24,7 +24,6 @@ class Liste(list): # héritage des fonctions list dans ma Liste
     def enlever(self, element):
         if element in self:
             self.remove(element)
-            print(element)
             return True
         return False
     
